@@ -4,13 +4,19 @@ description: "Full network documentation pipeline: discover live topology and ge
 
 ## Pre-run cleanup
 
-The following cleanup has already been executed before this prompt was sent:
+Before starting the pipeline, use the `cleanup` skill to prepare for a fresh discovery run:
 
-!`python3 .opencode/skills/cleanup/cleanup.py`
+```
+skill("cleanup")
+```
 
-This cleanup removed previous output files and wiped NetBox objects tagged with source=live-discovery.
+The cleanup skill will:
+- Remove previous output files (topology.drawio, topology.md)
+- Wipe all NetBox objects tagged with source=live-discovery
 
-If you see errors above, they are non-fatal — continue with the pipeline regardless.
+Run the cleanup script as documented in the skill.
+
+If you see errors, they are non-fatal — continue with the pipeline regardless.
 
 ---
 
