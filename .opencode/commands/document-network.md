@@ -6,7 +6,7 @@ description: "Full network documentation pipeline: discover live topology and ge
 
 The following cleanup has already been executed before this prompt was sent:
 
-!`python3 /home/kamal/AI_Network_Documentation/.opencode/cleanup.py`
+!`python3 /home/kamal/AI_Network_Documentation/.opencode/skills/cleanup/cleanup.py`
 
 If you see errors above, they are non-fatal — continue with the pipeline regardless.
 
