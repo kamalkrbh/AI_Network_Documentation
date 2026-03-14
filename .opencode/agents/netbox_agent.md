@@ -14,7 +14,4 @@ Load the skill immediately with:
 skill("netbox-sync-from-live")
 ```
 
-NetBox instance: http://localhost:8001
-Credentials: admin / admin
-
-The skill contains all sync procedures, authentication details, and rules.
+The skill contains all sync procedures, authentication details, credentials, and rules.
