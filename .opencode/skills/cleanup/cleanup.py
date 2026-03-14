@@ -6,7 +6,7 @@ Deletes:
   1. output/topology.drawio and output/topology.md
   2. All NetBox objects tagged source=live-discovery (reverse FK order)
 
-Run directly:  python3 .opencode/cleanup.py
+Run directly:  python3 .opencode/skills/cleanup/cleanup.py
 """
 
 import os
@@ -15,7 +15,7 @@ import requests
 
 # ── Config ────────────────────────────────────────────────────────────────────
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
-PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(SCRIPT_DIR)))
 OUTPUT_DIR  = os.path.join(PROJECT_DIR, "output")
 
 NETBOX = "http://localhost:8001"
