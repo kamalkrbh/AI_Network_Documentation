@@ -2,24 +2,6 @@
 description: "Full network documentation pipeline: discover live topology and generate a draw.io diagram, then sync to NetBox."
 ---
 
-## Pre-run cleanup
-
-Before starting the pipeline, use the `cleanup` skill to prepare for a fresh discovery run:
-
-```
-skill("cleanup")
-```
-
-The cleanup skill will:
-- Remove previous output files (topology.drawio, topology.md)
-- Wipe all NetBox objects tagged with source=live-discovery
-
-Run the cleanup script as documented in the skill.
-
-If you see errors, they are non-fatal — continue with the pipeline regardless.
-
----
-
 Run the network documentation pipeline for the containerlab lab at /home/kamal/srl-telemetry-lab.
 
 ## Phase 1 — Topology discovery
