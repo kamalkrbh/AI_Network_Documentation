@@ -21,17 +21,8 @@ This project provides tools and workflows to automatically build comprehensive n
 │   ├── agents/          # Specialized AI agents for network tasks
 │   ├── skills/          # Network discovery and sync workflows
 │   └── commands/        # Custom commands
-├── output/              # Generated documentation and diagrams
-│   ├── topology.drawio  # Network topology diagram
-│   └── topology.md      # Network topology documentation
 └── AGENTS.md            # Project documentation
 ```
-
-## Output
-
-The project generates:
-- **topology.drawio**: Visual network topology diagram that can be opened in draw.io
-- **topology.md**: Markdown documentation of the network topology
 
 ## Getting Started
 
