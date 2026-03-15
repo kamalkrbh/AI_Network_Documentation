@@ -2,6 +2,14 @@
 
 An automated network documentation project that discovers and documents network topology, inventory, and configuration from live device state.
 
+## Project Video
+
+Watch the project walkthrough on YouTube:
+
+[![AI Network Documentation project video thumbnail](https://img.youtube.com/vi/31EVg64iUrI/hqdefault.jpg)](https://youtu.be/31EVg64iUrI)
+
+Direct link: https://youtu.be/31EVg64iUrI
+
 ## Overview
 
 This project provides tools and workflows to automatically build comprehensive network documentation by connecting to live network devices and collecting their state. It eliminates the need for manual documentation and ensures your network records are always up-to-date.
