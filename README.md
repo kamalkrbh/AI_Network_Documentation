@@ -6,7 +6,7 @@ An automated network documentation project that discovers and documents network 
 
 Watch the project walkthrough on YouTube:
 
-[![AI Network Documentation project video thumbnail](https://img.youtube.com/vi/31EVg64iUrI/hqdefault.jpg)](https://youtu.be/31EVg64iUrI)
+[![AI Network Documentation project video thumbnail](https://img.youtube.com/vi/31EVg64iUrI/maxresdefault.jpg)](https://youtu.be/31EVg64iUrI)
 
 Direct link: https://youtu.be/31EVg64iUrI
 
